@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url)
 
     if (url.pathname === "/start" && request.method === "POST") {
-      return fetch("https://governance-harry-filled-living.trycloudflare.com/start", {
+      return fetch("https://stick-mens-month-vice.trycloudflare.com/start", {
         method: "POST"
       })
     }
